@@ -1,0 +1,12 @@
+# Install PyTorch FIRST, built for CUDA 12.8 (needed for RTX 50-series GPUs):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# then:
+#   pip install -r requirements.txt
+timm>=1.0
+scikit-learn
+scipy
+pandas
+matplotlib
+pillow
+tabulate
+streamlit>=1.36

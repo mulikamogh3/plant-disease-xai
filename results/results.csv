@@ -1,0 +1,7 @@
+run,model,mode,best_epoch,acc,acc_lo,acc_hi,macro_f1,lfs,lfs_random,bgonly_acc,mixed_acc,shortcut_gap,field_n,field_acc_strict,field_acc,field_acc_lo,field_acc_hi,field_f1
+efficientnet_b0_baseline,efficientnet_b0,baseline,27,99.816,99.633,99.963,99.781,0.839,0.517,24.046,87.518,12.298,744,25.269,25.269,22.308,28.226,16.101
+efficientnet_b0_bgsuppress,efficientnet_b0,bgsuppress,21,99.596,99.339,99.816,99.504,0.985,0.517,12.518,99.302,0.294,744,25.806,25.806,22.715,29.167,19.410
+resnet50_baseline,resnet50,baseline,9,99.229,98.862,99.523,98.990,0.905,0.517,22.210,95.962,3.267,744,28.629,28.629,25.538,31.858,19.241
+resnet50_bgsuppress,resnet50,bgsuppress,24,99.192,98.825,99.523,98.940,0.994,0.517,13.546,99.119,0.073,744,28.629,28.629,25.269,31.989,20.220
+vit_small_baseline,vit_small,baseline,26,99.853,99.670,99.963,99.842,0.602,0.517,27.863,86.050,13.803,744,26.478,26.478,23.387,29.704,18.684
+vit_small_bgsuppress,vit_small,bgsuppress,21,99.486,99.192,99.743,99.462,0.981,0.517,5.984,99.192,0.294,744,28.360,28.495,25.269,31.855,20.827
